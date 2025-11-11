@@ -1,0 +1,43 @@
+{
+  "name": "koten-transcriber",
+  "version": "1.0.0",
+  "description": "NDL古文書自動翻刻ツール - Claude Vision を使った明治時代の地誌自動翻刻システム",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next": "^14.0.0",
+    "lucide-react": "^0.263.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}
+```
+
+---
+
+## 🛠️ 使い方
+
+1. **上のコードをすべてコピー**（Ctrl+A で選択 → Ctrl+C）
+
+2. **テキストエディタを開く**
+   - Windows: メモ帳
+   - Mac: テキストエディット
+
+3. **貼り付け**（Ctrl+V）
+
+4. **以下の場所に保存**
+```
+   C:\Users\[ユーザー名]\Documents\koten-transcriber\package.json

@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fffbeb;
+}
+```
+
+---
+
+## 🛠️ 使い方
+
+1. **上のコードをすべてコピー**
+
+2. **テキストエディタを開く**
+
+3. **貼り付け**
+
+4. **重要：以下の場所に保存**
+```
+   C:\Users\[ユーザー名]\Documents\koten-transcriber\styles\globals.css
+```
+   
+   ⚠️ **注意：ファイル名は `styles_globals.css` ではなく、`globals.css` です！**
+   
+   （`styles` フォルダの中に保存してください）
+
+---
+
+## ✅ ここまでの確認
+
+フォルダ構造が以下のようになっているか確認してください：
+```
+📁 koten-transcriber/
+├─ 📁 pages/
+│  ├─ _app.js ✅
+│  ├─ _document.js ✅
+│  └─ index.jsx ✅
+├─ 📁 styles/
+│  └─ globals.css ✅
+├─ 📄 package.json ✅
+├─ 📄 next.config.js ✅
+├─ 📄 tailwind.config.js ✅
+├─ 📄 postcss.config.js ✅
+├─ 📄 .env.example ✅
+└─ 📄 .gitignore ✅
