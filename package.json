@@ -1,7 +1,7 @@
 {
   "name": "koten-transcriber",
   "version": "1.0.0",
-  "description": "NDL古文書自動翻刻ツール - Claude Vision を使った明治時代の地誌自動翻刻システム",
+  "description": "NDL古文書自動翻刻ツール",
   "private": true,
   "scripts": {
     "dev": "next dev",
